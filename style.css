@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+.navbar ul li {
+    display: flex;
+    margin: 40px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul li a:hover {
+    color: aqua;
+    transition: 0.5s;
+}
+
+
+/* Utility classes */
+.text-xl {
+    font-size: 3em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header {
+    margin: 40px;
+}
+
+.text-la {
+    font-size: 2.5em;
+}
+
+.text-md {
+    font-size: 2em;
+}
+
+.text-sm {
+    font-size: 1.5em;
+}
+
+/* Testimonials */
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    height: 500px;
+}
+
+.card {
+    border: 2px solid blue;
+    background-color: black;
+    color: white;
+}
+
+
+
+.card-stars {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-name {
+    font-size: 2em;
+    margin-top: 270px;
+}
+
+.card-3-name {
+    margin-top: 270px;
+    font-size: 2em;
+}
+
+.card-3-stars {
+    margin-top: 60px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.get-started {
+    margin-top: 50px;
+}
+
+.btn a {
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 20px;
+    position: absolute;
+    top: 1500px;
+    left: 590px;
+}
+
+.btn-primary a {
+    background-color: blue;
+    color: white;
+}
+
+/* Pricing */
+.pricing {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.pricing-card-free, .pricing-card-premium {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.benfits-header {
+    margin: 20px;
+}
+
+/* Footer */
+.footer {
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
